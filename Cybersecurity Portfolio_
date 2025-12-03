@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Daniel Ige Cybersecurity Portfolio</title>
+    <!--
+    DREAM PULSE
+    https://templatemo.com/tm-536-dream-pulse
+    -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="slick/slick.css"/>    
+    <link rel="stylesheet" href="slick/slick-theme.css"/>    
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/templatemo-dream-pulse.css" />
+  </head>
+
+  <body>
+    <main class="container-fluid">
+      <div class="row">
+        
+        <!-- SIDEBAR (LEFT) -->
+        <nav id="tmSidebar" class="col-xl-3 col-lg-4 col-md-4 col-sm-12 tm-bg-black-transparent tm-sidebar">
+          <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <div class="tm-sidebar-sticky">
+            <div class="tm-brand-box">
+              <div class="tm-double-border-1">
+                <div class="tm-double-border-2">
+                  <h1 class="tm-brand text-uppercase">GRC Journey</h1>
+                </div>
+              </div>
+            </div>
+
+            <!-- MAIN NAV -->
+            <ul id="tmMainNav" class="nav flex-column text-uppercase text-right tm-main-nav">
+              <li class="nav-item">
+                <a href="#intro" class="nav-link active">
+                  <span class="d-inline-block mr-3">Intro</span>
+                  <span class="d-inline-block tm-white-rect"></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">
+                  <span class="d-inline-block mr-3">About Me</span>
+                  <span class="d-inline-block tm-white-rect"></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#work" class="nav-link">
+                  <span class="d-inline-block mr-3">Work</span>
+                  <span class="d-inline-block tm-white-rect"></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#clients" class="nav-link">
+                  <span class="d-inline-block mr-3">Clients</span>
+                  <span class="d-inline-block tm-white-rect"></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#talk" class="nav-link">
+                  <span class="d-inline-block mr-3">Let's Talk</span>
+                  <span class="d-inline-block tm-white-rect"></span>
+                </a>
+              </li>
+            </ul>
+
+            <!-- SOCIAL LINKS -->
+            <ul class="nav flex-row tm-social-links">
+              <li class="nav-item">
+                <a href="https://linkedin.com" class="nav-link tm-social-link">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="mailto:your-email@example.com" class="nav-link tm-social-link">
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
+
+            <footer class="text-center text-white small">
+              <p class="mb--0 mb-2">Copyright 2020 Dream Pulse</p>
+              <p class="mb-0">Design:
+                <a rel="nofollow" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
+              </p>
+            </footer>
+          </div>
+        </nav>
+
+        <!-- MAIN CONTENT (RIGHT) -->
+        <main role="main" class="col-xl-9 col-lg-8 col-md-8 col-sm-12 ml-sm-auto">
+
+          <!-- INTRO / HERO SECTION -->
+          <div class="parallax-window"
+               data-parallax="scroll"
+               data-image-src="https://raw.githubusercontent.com/daniel27go/Cyber-Security-Projects-/main/GRC%20Infographics%2022.jpg">
+
+            <div class="tm-section-wrap">
+              <section id="intro" class="tm-section">
+                <div class="tm-bg-white-transparent tm-intro intro-flex">
+
+                  <!-- LEFT COLUMN — IMAGE -->
+                  <div class="intro-left">
+                    <img src="https://raw.githubusercontent.com/daniel27go/Cyber-Security-Projects-/main/Dadda.jpg" 
+                         alt="Cyber GRC Overview"
+                         style="width:65%; margin:auto; display:block;">
+                  </div>
+
+                  <!-- RIGHT COLUMN — TEXT -->
+                  <div class="intro-right">
+                    <h2 class="tm-section-title mb-4 text-uppercase tm-color-primary">
+                      Daniel Ige – GRC Journey
+                    </h2>
+                    <p class="tm-color-gray">
+                      Hi, my name is Daniel Ige. I specialize in Governance, Risk, and Compliance. 
+                      This portfolio showcases my technical foundations, audit experience, certifications, 
+                      and the projects that demonstrate my readiness for real-world security challenges.
+                    </p>
+                  </div>
+
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <!-- ABOUT ME SECTION -->
+          <div class="tm-section-wrap bg-white">
+            <section id="about" class="tm-section">
+              <div class="tm-section-half" style="width:100%; text-align:left; padding:40px;">
+
+                <div><i class="fas fa-6x fa-balance-scale mb-5 tm-section-icon"></i></div>
+                <h2 class="tm-section-title tm-color-primary mb-5">About Me</h2>
+
+                <p class="mb-4">
+                  My journey into cybersecurity did not begin with firewalls or network logs, 
+                  it began with a deep commitment to protecting people, data, and the systems 
+                  organizations rely on every day.
+                </p>
+
+                <p class="mb-4">
+                  I began my career as an epidemiologist, where I analyzed large datasets, 
+                  identified risk patterns, and supported public health interventions through 
+                  statistical modeling. This work taught me how to handle sensitive information 
+                  responsibly and how to communicate insights that influence critical decisions.
+                </p>
+
+                <p class="mb-4">
+                  As a data manager, I deepened my understanding of data governance. I built 
+                  departmental databases, developed reporting dashboards, established data standards, 
+                  and participated in HIPAA compliance activities. This role strengthened my 
+                  appreciation for secure data practices, quality management, and the policies that 
+                  govern information flow.
+                </p>
+
+                <p class="mb-4">
+                  Most recently, as a grant manager overseeing more than $6 million in awards, 
+                  I worked heavily in compliance, oversight, and internal controls. I coordinated 
+                  spending activities, conducted fraud, risk, and vendor due diligence, ensured 
+                  regulatory alignment, and created dashboards and reports for leadership and auditors. 
+                  It was in this role that I realized how much I enjoyed governance, documentation, 
+                  risk assessment, and the processes that hold organizations accountable.
+                </p>
+
+                <p class="mb-4">
+                  These experiences collectively inspired my pivot into cybersecurity and GRC. 
+                  I discovered that the principles I’ve practiced throughout my career—protecting data, 
+                  assessing risk, enforcing standards, monitoring compliance, and supporting informed 
+                  decision-making—align closely with the core responsibilities of cybersecurity governance.
+                </p>
+
+                <p class="mb-4">
+                  Today, I am intentionally building my cybersecurity foundation through structured GRC 
+                  training, hands-on projects, and certifications such as Security+ and CISA. I am excited 
+                  to apply my analytical mindset, data governance experience, and compliance background to 
+                  help organizations strengthen their security posture and make risk-aware decisions.
+                </p>
+
+                <a href="journey.html" class="btn tm-btn-primary mt-4">
+                  See more about my journey
+                </a>
+
+              </div>
+            </section>
+          </div>
+
+          <!-- WORK / PROJECTS SECTION -->
+          <div class="tm-section-wrap bg-white">
+            <section id="work" class="row tm-section">
+              <div class="col-12">
+                <div class="w-100 tm-double-border-1 tm-border-gray">
+                  <div class="tm-double-border-2 tm-border-gray tm-box-pad">
+                    <div class="tm-gallery-wrap">
+                      <h2 class="tm-color-primary tm-section-title mb-4 ml-2">My Projects</h2>
+                      <div class="tm-gallery">
+                        <div class="tm-gallery-item">                        
+                          <figure class="effect-bubba">
+                            <img src="img/gallery/01.jpg" alt="Project Image" class="img-fluid">
+                            <figcaption>
+                              <h2>Fresh <span>Bubba</span></h2>
+                              <p>Bubba likes to appear out of thin air.</p>
+                              <a href="img/gallery/large/01.jpg">View more</a>
+                            </figcaption>
+                          </figure>
+                        </div>
+                        <div class="tm-gallery-item">
+                          <figure class="effect-bubba">
+                            <img src="img/gallery/02.jpg" alt="Project Image" class="img-fluid">
+                            <figcaption>
+                              <h2>Fresh <span>Bubba</span></h2>
+                              <p>Bubba likes to appear out of thin air.</p>
+                              <a href="img/gallery/large/02.jpg">View more</a>
+                            </figcaption>
+                          </figure>
+                        </div>
+                        <div class="tm-gallery-item">
+                          <figure class="effect-bubba">
+                            <img src="img/gallery/03.jpg" alt="Project Image" class="img-fluid">
+                            <figcaption>
+                              <h2>Fresh <span>Bubba</span></h2>
+                              <p>Bubba likes to appear out of thin air.</p>
+                              <a href="img/gallery/large/03.jpg">View more</a>
+                            </figcaption>
+                          </figure>
+                        </div>
+                        <div class="tm-gallery-item">
+                          <figure class="effect-bubba">
+                            <img src="img/gallery/04.jpg" alt="Project Image" class="img-fluid">
+                            <figcaption>
+                              <h2>Fresh <span>Bubba</span></h2>
+                              <p>Bubba likes to appear out of thin air.</p>
+                              <a href="img/gallery/large/04.jpg">View more</a>
+                            </figcaption>
+                          </figure>
+                        </div>
+                        <div class="tm-gallery-item">
+                          <figure class="effect-bubba">
+                            <img src="img/gallery/05.jpg" alt="Project Image" class="img-fluid">
+                            <figcaption>
+                              <h2>Fresh <span>Bubba</span></h2>
+                              <p>Bubba likes to appear out of thin air.</p>
+                              <a href="img/gallery/large/05.jpg">View more</a>
+                            </figcaption>
+                          </figure>
+                        </div>
+                        <div class="tm-gallery-item">
+                          <figure class="effect-bubba">
+                            <img src="img/gallery/06.jpg" alt="Project Image" class="img-fluid">
+                            <figcaption>
+                              <h2>Fresh <span>Bubba</span></h2>
+                              <p>Bubba likes to appear out of thin air.</p>
+                              <a href="img/gallery/large/06.jpg">View more</a>
+                            </figcaption>
+                          </figure>
+                        </div>
+                        <div class="tm-gallery-item">
+                          <figure class="effect-bubba">
+                            <img src="img/gallery/07.jpg" alt="Project Image" class="img-fluid">
+                            <figcaption>
+                              <h2>Fresh <span>Bubba</span></h2>
+                              <p>Bubba likes to appear out of thin air.</p>
+                              <a href="img/gallery/large/07.jpg">View more</a>
+                            </figcaption>
+                          </figure>
+                        </div>
+                        <div class="tm-gallery-item">
+                          <figure class="effect-bubba">
+                            <img src="img/gallery/08.jpg" alt="Project Image" class="img-fluid">
+                            <figcaption>
+                              <h2>Fresh <span>Bubba</span></h2>
+                              <p>Bubba likes to appear out of thin air.</p>
+                              <a href="img/gallery/large/08.jpg">View more</a>
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>                        
+                  </div>                  
+                </div>     
+              </div>         
+            </section>
+          </div>
+
+          <!-- CLIENTS SECTION -->
+          <div class="tm-section-wrap bg-white">
+            <section id="clients" class="row tm-section">
+              <div class="col-12 tm-section-pad">
+                <div class="tm-flex-item-left">
+                  <div class="tm-w-80">
+                    <h2 class="tm-color-primary tm-section-title mb-4">Our Clients</h2>
+                    <p class="mb-5">
+                      Aenean est augue, iaculis ut arcu a, cursus tempus eros.
+                      Maecenas ut efficitur lectus, vel commodo nibh. Vivamus
+                      consequat massa non euismod facilisis. Morbi assumsan non libero
+                      a vehicula. Donec blandit suscipit magna sit amet elementum.
+                    </p>
+                  </div>
+                  
+                  <div class="row tm-clients-images">
+                    <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                      <a href="https://google.com">
+                        <img src="img/client-1.png" alt="Client Image" class="img-fluid tm-client-img" />
+                      </a>                          
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                      <a href="https://facebook.com">
+                        <img src="img/client-2.png" alt="Client Image" class="img-fluid tm-client-img" />
+                      </a>                          
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                      <a href="https://twitter.com">
+                        <img src="img/client-3.png" alt="Client Image" class="img-fluid tm-client-img" />
+                      </a>                          
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                      <a href="https://instagram.com">
+                        <img src="img/client-4.png" alt="Client Image" class="img-fluid tm-client-img" />
+                      </a>                          
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                      <a href="https://google.com">
+                        <img src="img/client-5.png" alt="Client Image" class="img-fluid tm-client-img" />
+                      </a>                          
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                      <a href="https://facebook.com">
+                        <img src="img/client-6.png" alt="Client Image" class="img-fluid tm-client-img" />
+                      </a>                          
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                      <a href="https://twitter.com">
+                        <img src="img/client-7.png" alt="Client Image" class="img-fluid tm-client-img" />
+                      </a>                          
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
+                      <a href="https://instagram.com">
+                        <img src="img/client-8.png" alt="Client Image" class="img-fluid tm-client-img" />
+                      </a>                          
+                    </div>
+                  </div>
+                </div> 
+              </div>                             
+            </section>
+          </div>
+
+          <!-- CONTACT / REACH OUT SECTION -->
+          <div class="tm-section-wrap bg-white">
+            <section id="talk" class="row tm-section">
+              <div class="col-xl-6 mb-5">
+                <div class="tm-double-border-1 tm-border-gray">
+                  <div class="tm-double-border-2 tm-border-gray tm-box-pad">
+                    <h2 class="tm-color-primary tm-section-title mb-4">Reach Out</h2>
+                    <p class="mb-4">
+                      If my background resonates with your team or you’re aware of opportunities 
+                      that match my skills and interests, I would welcome the chance to connect.
+                    </p>
+                    <p class="mb-3">
+                      120-240 Orci varius natoque penatibus, <br>
+                      parturient montes, 10660 <br>
+                      nasvetur ridiculus mus
+                    </p>
+                  </div>                    
+                </div>                  
+              </div>
+
+              <div class="col-xl-6 mb-5">
+                <div class="tm-contact-form-wrap">
+                  <form action="" method="POST" class="tm-contact-form">
+                    <div class="form-group">
+                      <input type="text" id="contact_name" name="contact_name" 
+                             class="form-control rounded-0 border-top-0 border-right-0 border-left-0" 
+                             placeholder="Your Name" required />
+                    </div>
+                    <div class="form-group">
+                      <input type="email" id="contact_email" name="contact_email" 
+                             class="form-control rounded-0 border-top-0 border-right-0 border-left-0" 
+                             placeholder="Your Email" required />
+                    </div>
+                    <div class="form-group">
+                      <textarea rows="4" id="contact_message" name="contact_message" 
+                                class="form-control rounded-0 border-top-0 border-right-0 border-left-0" 
+                                placeholder="Message..." required></textarea>
+                    </div>
+                    <div class="form-group mb-0">
+                      <button type="submit" class="btn rounded-0 d-block ml-auto tm-btn-primary">
+                        SEND
+                      </button>
+                    </div>
+                  </form>
+                </div>                    
+              </div>
+            </section>
+          </div>
+
+        </main> <!-- end main content -->
+      </div> <!-- end row -->
+    </main> <!-- end container-fluid -->
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/templatemo-scripts.js"></script>
+  </body>
+</html>
