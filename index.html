@@ -17,7 +17,30 @@
     <link rel="stylesheet" href="slick/slick-theme.css"/>    
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/templatemo-dream-pulse.css" />
-  </head>
+
+    <style>
+  /* Fix the dark sidebar to the left */
+  #tmSidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 260px;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1000;
+  }
+
+  /* Push main content away from the sidebar */
+  .main-content-wrapper {
+    margin-left: 260px;
+  }
+
+  body {
+    background-color: #ffffff;
+  }
+</style>
+</head>
 
 <body>
   <main class="container-fluid">
@@ -98,7 +121,7 @@
       </nav>
 
       <!-- MAIN CONTENT (RIGHT) -->
-      <main role="main" class="col-xl-9 col-lg-8 col-md-8 col-sm-12">
+      <main role="main" class="col-xl-9 col-lg-8 col-md-8 col-sm-12 main-content-wrapper">
 
         <!-- INTRO / HERO SECTION -->
         <div class="parallax-window"
@@ -476,4 +499,5 @@
     <script src="js/templatemo-scripts.js"></script>
   </body>
 </html>
+
 
