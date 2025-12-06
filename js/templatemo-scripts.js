@@ -60,11 +60,11 @@ $(document).ready(function() {
   });
 
   // Image Pop Up
-  $(".tm-gallery").magnificPopup({
+  /*$(".tm-gallery").magnificPopup({
     delegate: "a", // child items selector, by clicking on it popup will open
     type: "image",
     gallery: { enabled: true }
-  });
+  });*/
 
   $(".navbar-toggler").on("click", function(e) {
     $(".tm-sidebar").toggleClass("show");
