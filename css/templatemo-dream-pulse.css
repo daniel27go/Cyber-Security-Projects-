@@ -264,7 +264,7 @@ a {
 
 @media (max-width: 1600px) {
   .tm-gallery-wrap {
-    max-width: 520px;
+    max-width: 780px;
   }
 }
 
@@ -276,13 +276,13 @@ a {
 
 @media (max-width: 1600px) {
   .tm-gallery-wrap {
-    max-width: 520px;
+    max-width: 780x;
   }
 }
 
 @media (max-width: 1600px) {
   .tm-gallery-wrap {
-    max-width: 260px;
+    max-width: 780px;
   }
 }
 
@@ -673,4 +673,5 @@ figure.effect-bubba:hover p {
     padding: 50px 30px;
   }
 }
+
 
