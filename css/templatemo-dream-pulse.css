@@ -262,25 +262,25 @@ a {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1600px) {
   .tm-gallery-wrap {
     max-width: 520px;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1600px) {
   .tm-gallery-wrap {
     max-width: 780px;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1600px) {
   .tm-gallery-wrap {
     max-width: 520px;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1600px) {
   .tm-gallery-wrap {
     max-width: 260px;
   }
@@ -673,3 +673,4 @@ figure.effect-bubba:hover p {
     padding: 50px 30px;
   }
 }
+
